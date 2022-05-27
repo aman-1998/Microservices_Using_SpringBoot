@@ -1,0 +1,9 @@
+package personal.learning.store;
+
+public class Store {
+	
+	@RequestMapping(value = "/home")
+	public String home() {
+		return "home";
+	}
+}

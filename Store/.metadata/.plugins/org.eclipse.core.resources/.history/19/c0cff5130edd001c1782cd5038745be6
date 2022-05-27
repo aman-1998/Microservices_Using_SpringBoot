@@ -1,0 +1,15 @@
+package personal.learning.store;
+
+import org.springframework.boot.web.servlet.error.ErrorController;
+
+public class CustomErrorController implements ErrorController {
+	
+	public String getErrorPath() {
+		return "/error";
+	}
+	
+	public String error() {
+		return "error";
+	}
+	
+}

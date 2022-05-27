@@ -1,0 +1,9 @@
+package personal.learning.custom.exception;
+
+public class customException extends Exception {
+	private String message;
+
+	public customException(String message) {
+		super(message);
+	}
+}

@@ -1,0 +1,24 @@
+package personal.learning.model;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import personal.learning.model.entity.Product;
+
+public class ProductsInfo {
+	List<Product> productList = new ArrayList<Product>();
+
+	public ProductsInfo(List<Product> productList) {
+		this.productList = productList;
+	}
+
+	public List<Product> getProductList() {
+		return productList;
+	}
+
+	public void setProductList(List<Product> productList) {
+		this.productList = productList;
+	}
+	
+	
+}

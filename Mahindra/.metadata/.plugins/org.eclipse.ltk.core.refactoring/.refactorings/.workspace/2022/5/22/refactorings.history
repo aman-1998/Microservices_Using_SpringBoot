@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;SpringBoot_REST_CRUD_logback_for_logging_95&apos; to &apos;Mahindra&apos;&#x0D;&#x0A;- Original element: &apos;SpringBoot_REST_CRUD_logback_for_logging_95&apos;&#x0D;&#x0A;- Renamed element: &apos;SpringBoot_REST_CRUD_logback_for_logging_95&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;SpringBoot_REST_CRUD_logback_for_logging_95&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=SpringBoot_REST_CRUD_logback_for_logging_95" name="Mahindra" references="true" stamp="1653479957766" version="1.0"/>
+</session>

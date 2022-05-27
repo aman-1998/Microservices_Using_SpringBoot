@@ -1,0 +1,11 @@
+package personal.learning.store;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+
+public class Store {
+	
+	@RequestMapping(value = "/home")
+	public String home() {
+		return "home";
+	}
+}
