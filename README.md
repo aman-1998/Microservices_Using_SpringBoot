@@ -29,6 +29,21 @@ used as a Discovery Service. It is a Client-Side-Discovery-Service.</p>
 </p>
 <p><i>Note:- Eureka server is also a Eureka client and it also register itself on the server. This is important because when we will be having multiple instances of Eureka server running then it is important for all Eureka servers to register themselves with each other so that even when one of the server fails, other instances of the server will provide the discovery service.</i></p>
 
+<p>Eureka client updates its registration in every few seconds so that any change in Eureka client is immediately reflected on Eureka server.</p>
+<p align="center">
+  <img src="https://github.com/aman-1998/Microservices_Using_SpringBoot/blob/main/Images/image2.png">
+</p>
+
+<p>When Eureka client shuts down or timeout happens then it is deregistered from Eureka server. At this time Eureka server does not have any information about the microservice.</p>
+<p align="center">
+  <img src="https://github.com/aman-1998/Microservices_Using_SpringBoot/blob/main/Images/image4.png">
+</p>
+
+<p>When Store-App wants to communicate with Honda-App then it sends a GET request to the Discovery service. Inside Discovery service querying happens and then it send the response back to the Store-App. Now Store-App has the information required to communicate with Honda-App. And then actual communication takes place.</p>
+<p align="center">
+  <img src="https://github.com/aman-1998/Microservices_Using_SpringBoot/blob/main/Images/image3.png">
+</p>
+
 <h2><strong>Some important links:-</strong></h2>
 1. https://docs.spring.io/spring-framework/docs/2.0.8/reference/spring-form.tld.html#spring-form.tld.input <br>
 2. https://docs.spring.io/spring-framework/docs/4.2.x/spring-framework-reference/html/spring-form-tld.html <br>
